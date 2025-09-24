@@ -1,0 +1,22 @@
+* text=auto
+
+# 소스/문서: LF 고정
+*.py   text eol=lf
+*.md   text eol=lf
+*.sh   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.txt  text eol=lf
+
+# 윈도우용 스크립트만 CRLF
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
+
+# 바이너리/노트북은 변환 금지
+*.png  -text
+*.jpg  -text
+*.gif  -text
+*.pdf  -text
+*.ipynb -text
+*.csv  -text

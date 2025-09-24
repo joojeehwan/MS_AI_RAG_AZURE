@@ -1,0 +1,10 @@
+{
+    "dependencies": [
+        "."
+    ],
+    "graphs": {
+        "my_agent": "./main.py:graph",
+        "my_agent2": "./main.py:graph"
+        
+    }
+}
